@@ -8,3 +8,9 @@ This project implements a local container security pipeline on macOS using **Col
 - **Audit Logging:** Saves detailed JSON reports for every scan.
 - **Visual Dashboard:** Generates a Markdown dashboard summarizing all past scans.
 
+## Directory Structure
+- `scripts/`: Implementation scripts.
+    - `quarantine-run.sh`: Wrapper for container pulling and execution.
+    - `dashboard.sh`: Metrics extraction and dashboard generation.
+- `AUDIT_DASHBOARD.md`: Generated summary of security scans.
+- `technical_project_brief.md`: Detailed architectural design and business ROI.
