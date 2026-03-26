@@ -14,3 +14,16 @@ This project implements a local container security pipeline on macOS using **Col
     - `dashboard.sh`: Metrics extraction and dashboard generation.
 - `AUDIT_DASHBOARD.md`: Generated summary of security scans.
 - `technical_project_brief.md`: Detailed architectural design and business ROI.
+
+## Usage
+
+### Run a container safely
+Instead of `docker run`, use:
+```zsh
+./scripts/quarantine-run.sh <image_name:tag>
+```
+
+### Update the dashboard
+```zsh
+./scripts/dashboard.sh
+
