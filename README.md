@@ -26,4 +26,13 @@ Instead of `docker run`, use:
 ### Update the dashboard
 ```zsh
 ./scripts/dashboard.sh
+```
+
+## Prerequisites
+- macOS (tested on v15.3.1)
+- [Homebrew](https://brew.sh/)
+- [Colima](https://github.com/abiosoft/colima)
+- [Trivy](https://aquasecurity.github.io/trivy/)
+- [jq](https://stedolan.github.io/jq/)
+
 
